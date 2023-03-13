@@ -1,0 +1,19 @@
+{
+  "name": "runic-language",
+  "version": "1.0.0",
+  "description": "The interpreter for runic",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Language"
+  ],
+  "author": "Zach Franke",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "pegjs": "^0.10.0"
+  }
+}

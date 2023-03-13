@@ -1,0 +1,4 @@
+rune myRune = Hello;
+evoke(myRune);
+rune myRune2 = This is my first attempt at building a language;
+evoke(myRune2);

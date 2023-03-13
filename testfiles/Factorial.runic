@@ -1,0 +1,9 @@
+rune factorial(n: int) -> int {
+  if (n <= 1) {
+    return 1;
+  }
+  return n * factorial(n - 1);
+}
+
+rune result: int = factorial(5);
+evoke(result);
